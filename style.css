@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(187, 187, 187);
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5%;
+    background-color: rgb(253, 253, 253);
+    width: 50%;
+    height: 100vh;
+    padding: 40px 0;
+    border-radius: 15px;
+}
+
+.main{
+    width: 90%;
+}
+
+label{
+    display: block;
+    margin: 30px 0 15px 0;
+}
+
+#nueva-tarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+}
+
+#btn{
+    padding: 5px 10px;
+    width: 100%;
+}
+
+/* ESTILOS PARA LAS NUEVAS TAREAS*/
+
+.tarea{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(217, 217, 217);
+    margin-top: 15px;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.tareas{
+    margin-top: 30px;
+}
+
+.btn-group{
+    padding: 15px 0;
+    
+}
+
+.icon{
+    margin-bottom: 7px;
+}
