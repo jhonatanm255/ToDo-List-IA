@@ -16,9 +16,13 @@ body{
     margin-top: 5%;
     background-color: rgb(253, 253, 253);
     width: 50%;
-    height: 100vh;
     padding: 40px 0;
     border-radius: 15px;
+    min-height: 100vh;
+}
+
+h1{
+    text-align: center;
 }
 
 .main{
@@ -35,11 +39,23 @@ label{
     margin-bottom: 10px;
     width: 100%;
     padding: 8px;
+    border-radius: 20px;
+    border: solid 1px grey;
+    outline: none;
 }
 
 #btn{
     padding: 5px 10px;
     width: 100%;
+    border-radius: 20px;
+    background-color: rgb(91, 91, 255);
+    border: none;
+    color: aliceblue;
+}
+
+#btn:hover{
+    background-color: rgb(49, 49, 255);
+    cursor: pointer;
 }
 
 /* ESTILOS PARA LAS NUEVAS TAREAS*/
@@ -47,21 +63,41 @@ label{
 .tarea{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(217, 217, 217);
+    background-color: rgb(233, 233, 233);
     margin-top: 15px;
     border-radius: 7px;
-    padding: 15px;
+   
+    padding-left: 10px;
 }
 
 .tareas{
     margin-top: 30px;
 }
 
-.btn-group{
-    padding: 15px 0;
+.btn-group > .icon{
+    display: block;
+    margin: 7px;
+    cursor: pointer;
     
+}
+
+.btn-group{
+    background-color: rgba(152, 152, 152, 0.8);
+    border-radius: 0 7px 7px 0;
 }
 
 .icon{
     margin-bottom: 7px;
+}
+
+p{
+    padding: 10px;
+}
+
+.checked{
+    background-color: rgb(108, 239, 108);
+}
+
+#delete{
+    color: rgb(191, 0, 0);
 }
