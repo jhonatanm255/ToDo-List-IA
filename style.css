@@ -101,3 +101,15 @@ p{
 #delete{
     color: rgb(191, 0, 0);
 }
+
+/* MEDIA QUERY */
+
+@media (max-width: 600px) {
+    .contenedor{
+        width: 100%;
+    } 
+    body {
+      font-size: 14px;
+    }
+  }
+  
